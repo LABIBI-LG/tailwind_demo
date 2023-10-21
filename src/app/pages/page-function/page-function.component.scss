@@ -1,0 +1,32 @@
+.box {
+  background: red;
+}
+@screen sm {
+  .box {
+    background: orange;
+  }
+}
+@screen md {
+  .box {
+    background: yellow;
+  }
+}
+@screen lg {
+  .box {
+    background: green;
+  }
+}
+@screen xl {
+  .box {
+    background: blue;
+  }
+}
+@screen 2xl {
+  .box {
+    background: purple;
+  }
+}
+
+.theme{
+  color: theme('colors.primary.500');
+}
