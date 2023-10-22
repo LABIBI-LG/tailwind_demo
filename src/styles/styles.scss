@@ -3,17 +3,21 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-*{
-  @apply transition ease-in-out text-white;
+// @layer base {
+//   h1 {
+//     @apply text-5xl;
+//   }
+// }
 
+* {
+  @apply transition ease-in-out text-white;
 }
 
-a{
+a {
   @apply cursor-pointer hover:text-purple-500;
 }
 
-body{
+body {
   @apply bg-[url('https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg')]
-  bg-[100%]
-  ;
+  bg-[100%];
 }

@@ -5,16 +5,10 @@ module.exports = {
   },
   media: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      // sans: ['"Noto Sans TC"', '"sans-serif"'],
-    },
     extend: {
       screens: {
         pad: "960px",
         xs: "400px",
-      },
-      backgroundSize: {
-        "100%": "100%",
       },
       colors: {
         primary: {
